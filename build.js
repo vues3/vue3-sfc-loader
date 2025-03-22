@@ -1,5 +1,5 @@
-import { version } from "./package.json"
-import { version as vueVersion } from "@vue/compiler-sfc/package.json"
+import { version } from "./package.json";
+import { version as vueVersion } from "@vue/compiler-sfc/package.json";
 
 await Bun.build({
     entrypoints: ["./src/index.ts"],
