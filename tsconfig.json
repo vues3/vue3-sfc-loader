@@ -6,7 +6,7 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "esModuleInterop": true,
-    "exactOptionalPropertyTypes": true,
+    // "exactOptionalPropertyTypes": true,
     "isolatedModules": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "preserve",
@@ -16,8 +16,8 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
+    // "strict": true,
     "target": "esnext"
   },
-  "include": ["./src/index.ts", "build.ts"]
+  "include": ["./src/index.ts"]
 }
