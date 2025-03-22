@@ -1,23 +1,16 @@
 {
-  "name": "@vues3/shared",
-  "version": "0.4.34",
+  "name": "@vues3/vue3-sfc-loader",
+  "version": "0.1.1",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build": "tsc && bun build ./src/index.ts --minify --packages external --outdir dist"
+    "build": "tsc && bun run build.ts"
   },
-  "dependencies": {
-    "@vues3/flat-json-tree": "^0.6.23",
-    "ajv": "^8.17.1",
-    "ajv-keywords": "^5.1.0",
-    "json-schema-to-ts": "^3.1.1",
-    "uuid": "^11.1.0",
-    "vue": "^3.5.13"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.23.0",
     "@types/bun": "^1.2.5",
     "eslint-config-prettier": "10.1.1",
     "eslint-import-resolver-typescript": "^4.2.2",
@@ -29,17 +22,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vues3/shared.git"
+    "url": "git+https://github.com/vues3/vue3-sfc-loader.git"
   },
   "keywords": [
-    "vues3",
-    "shared"
+    "vue3",
+    "sfc",
+    "loader"
   ],
   "author": "jbruwes",
   "license": "AGPL",
   "bugs": {
-    "url": "https://github.com/vues3/shared/issues"
+    "url": "https://github.com/vues3/vue3-sfc-loader/issues"
   },
-  "homepage": "https://github.com/vues3/shared#readme",
-  "description": "@vues3/shared"
+  "homepage": "https://github.com/vues3/vue3-sfc-loader#readme",
+  "description": "@vues3/vue3-sfc-loader"
 }
